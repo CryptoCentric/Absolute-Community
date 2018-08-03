@@ -85,7 +85,7 @@ apt-get update >/dev/null 2>&1
 apt-get install -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" make software-properties-common \
 build-essential libtool autoconf libssl-dev libboost-dev libevent-dev nano jq htop git pwgen libboost-chrono-dev libboost-filesystem-dev libboost-program-options-dev \
 libboost-system-dev libboost-test-dev libboost-thread-dev sudo automake git wget pwgen curl libdb4.8-dev bsdmainutils libdb4.8++-dev \
-libminiupnpc-dev libgmp3-dev ufw python-virtualenv unzip >/dev/null 2>&1
+libminiupnpc-dev libgmp3-dev ufw python-virtualenv libzmq3-dev unzip >/dev/null 2>&1
 clear
 if [ "$?" -gt "0" ];
   then
